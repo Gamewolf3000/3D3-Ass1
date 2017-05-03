@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common Headers">
+      <UniqueIdentifier>{07d5c860-23b5-47d3-8ad9-1b1aa74dd5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGL Versions">
+      <UniqueIdentifier>{d615638d-8404-4162-a02a-3e1ac9224eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectX12">
+      <UniqueIdentifier>{c6720de4-5c43-4e31-92d9-71d5d57d60df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX12">
+      <UniqueIdentifier>{e3f3bf00-7475-4f6e-aab4-a41ce2480d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{5d358b17-2f42-4f17-a4d8-22b59a50c2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOD HELP US ALL">
+      <UniqueIdentifier>{116ddb73-67ff-4cc4-8945-f4375cd8597e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2DGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler2DGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBindingGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRenderer.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBindingDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler2DDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2DDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateDX12.cpp">
+      <Filter>Source Files\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\AlphaTestEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\BasicEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\BinaryReader.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\CommonStates.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\DDSTextureLoader.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\DescriptorHeap.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\DirectXHelpers.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\DualTextureEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\EffectCommon.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\EffectFactory.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\EffectPipelineStateDescription.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\EffectTextureFactory.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\EnvironmentMapEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\GeometricPrimitive.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\Geometry.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\GraphicsMemory.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\Keyboard.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\LinearAllocator.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\Model.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\ModelLoadSDKMESH.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\ModelLoadVBO.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\Mouse.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\NormalMapEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\pch.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\PrimitiveBatch.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\ResourceUploadBatch.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\ScreenGrab.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\SimpleMath.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\SkinnedEffect.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\SpriteBatch.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\SpriteFont.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\VertexTypes.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK12\WICTextureLoader.cpp">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoaderLuna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IA.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencil.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawInfo.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPart.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBinding.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler2D.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stb_image.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files\Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRenderer.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStateGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBindingGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler2DGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformGL.h">
+      <Filter>Header Files\OpenGL Versions</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStateDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBindingDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler2DDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferDX12.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DX12Helper.h">
+      <Filter>Header Files\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\AlignedNew.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Audio.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Bezier.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\BinaryReader.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\CommonStates.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\d3dx12.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\dds.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\DDSTextureLoader.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\DemandCreate.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\DescriptorHeap.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\DirectXHelpers.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\EffectCommon.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\EffectPipelineStateDescription.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Effects.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\GeometricPrimitive.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Geometry.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\GraphicsMemory.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Keyboard.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\LinearAllocator.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\LoaderHelpers.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Model.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\Mouse.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\pch.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\PlatformHelpers.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\PrimitiveBatch.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\RenderTargetState.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\ResourceUploadBatch.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\ScreenGrab.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\SDKMesh.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\SharedResourcePool.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\SimpleMath.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\SpriteBatch.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\SpriteFont.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\vbo.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\VertexTypes.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK12\WICTextureLoader.h">
+      <Filter>GOD HELP US ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoaderLuna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\GL45\FragmentShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\assets\GL45\VertexShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\assets\DX12\FragmentShader.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\DX12\VertexShader.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
